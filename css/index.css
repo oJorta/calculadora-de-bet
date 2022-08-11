@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #202020;
+    gap: 8vh;
+    color: white;
+    font-size: 14px;
+}
+
+h1{
+    font-size: 28px;
+    color: rgb(212, 71, 182);
+    text-shadow: 4px 4px 10px rgb(131, 9, 125);
+}
+
+#app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+#insert-valores{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: row;
+}
+
+#calcular{
+
+
+}
+
+#resultado{
+    font-size: 24px;
+}
